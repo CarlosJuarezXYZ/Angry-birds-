@@ -1,0 +1,566 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.header__angrybird{
+    width: 100%;
+    height: 163px;
+    margin: 0 auto;
+}
+
+
+.header__container{
+    width: 100%;
+    height: 81.5px;
+    background-color: lightgreen;
+}
+
+.header__angrybird  img{
+    width: 100%;
+    height: 130px;
+    margin-top: -80px;
+  }
+
+.angrybird{
+    margin: 0 auto;
+}
+
+
+
+
+.angrybird__title{
+    background-image:url("/images/slingshot_content_logo.png");
+    background-size: cover;
+    width: 298px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+
+.angrybird__general{
+    display: grid;
+    grid-template-columns: 206px 206px 206px 206px 206px; 
+    width:1030px; 
+    gap: 8px;
+    margin: 40px auto;
+   
+}
+
+.angrybird__general p {
+    font-size: 12px;
+}
+
+
+.angrybird__image{
+    height: 169px;
+    display: block;
+}
+
+
+.image__ten{
+    background-image: url("/images/videos/video10.jpg");;
+    background-size: cover;
+    width: 206px;
+    height: 116px;
+    position: relative;
+}
+
+.capa{
+    position: absolute;
+    width: 206px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(11,103,123,0.3);
+    opacity: 1;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.capa img {
+    width: 60px;
+    height: 40px;
+}
+
+.image__ten:hover > .capa {
+    position: absolute;
+    width: 206px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(11,103,123,0.3);
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms;
+}
+
+
+.image__nine{
+    background-image: url("/images/videos/video9.jpg");
+    background-size: cover;
+    width: 206px;
+    height: 116px;
+}
+
+.image__nine:hover > .capa {
+    position: absolute;
+    width: 206px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(11,103,123,0.3);
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms;
+}
+
+
+.image__eight{
+    background-image: url("/images/videos/video8.jpg");
+    background-size: cover;
+    width: 206px;
+    height: 116px;
+}
+
+.image__eight:hover > .capa {
+    position: absolute;
+    width: 206px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(11,103,123,0.3);
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms;
+}
+
+
+.image__seven{
+    background-image: url("/images/videos/video7.jpg");
+    background-size: cover;
+    width: 206px;
+    height: 116px;
+}
+
+.image__seven:hover > .capa {
+    position: absolute;
+    width: 206px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(11,103,123,0.3);
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms;
+}
+
+
+.image__six{
+    background-image: url("/images/videos/video6.jpg");
+    background-size: cover;
+    width: 206px;
+    height: 116px;
+}
+
+.image__six:hover > .capa {
+    position: absolute;
+    width: 206px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(11,103,123,0.3);
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms;
+}
+
+.image__five{
+    background-image: url("/images/videos/video5.jpg");
+    background-size: cover;
+    width: 206px;
+    height: 116px;
+}
+
+.image__five:hover > .capa {
+    position: absolute;
+    width: 206px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(11,103,123,0.3);
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms;
+}
+
+.image__four{
+    background-image: url("/images/videos/video4.jpg");
+    background-size: cover;
+    width: 206px;
+    height: 116px;
+}
+
+.image__four:hover > .capa {
+    position: absolute;
+    width: 206px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(11,103,123,0.3);
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms;
+}
+
+.image__third{
+    background-image: url("/images/videos/video3.jpg");
+    background-size: cover;
+    width: 206px;
+    height: 116px;
+}
+
+.image__third:hover > .capa {
+    position: absolute;
+    width: 206px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(11,103,123,0.3);
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms;
+}
+
+.image__two{
+    background-image: url("/images/videos/video2.jpg");
+    background-size: cover;
+    width: 206px;
+    height: 116px;
+}
+
+.image__two:hover > .capa {
+    position: absolute;
+    width: 206px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(11,103,123,0.3);
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms;
+}
+
+.image__one{
+    background-image: url("/images/videos/video1.jpg");
+    background-size: cover;
+    width: 206px;
+    height: 116px;
+}
+
+.image__one:hover > .capa {
+    position: absolute;
+    width: 206px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(11,103,123,0.3);
+    opacity: 1;
+    visibility: visible;
+    transition: all 500ms;
+}
+
+
+@media  (max-width: 760px){
+    .header__angrybird{
+        width: 100%;
+        height: 163px;
+        margin: 0 auto;
+        transition: 700ms;
+    }
+    
+    
+    .header__container{
+        width: 100%;
+        height: 81.5px;
+        background-color: lightgreen;
+        transition: 500ms;
+    }
+    
+    
+    
+    .header__angrybird  img{
+      width: 100%;
+      height: 130px;
+      margin-top: -80px;
+      transition: 500ms;
+    }
+    
+    
+    .angrybird__title{
+        background-image:url("/images/slingshot_content_logo.png");
+        background-size: cover;
+        width: 188px;
+        height: 94px;
+        margin: 0 auto;
+    }
+    
+    
+    .angrybird__general{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width:730px; 
+        column-gap: 5px;
+        row-gap: 20px;
+        margin-top: 40px;
+        transition: 500ms;
+    }
+    
+    .angrybird__general p {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: bold;
+        margin-top: 8px;
+        transition: 500ms;
+    }
+    
+    
+    .angrybird__image{
+        height: 266px;
+        width: 360px;
+        display: block;
+        transition: 500ms;
+    }
+    
+    
+    .image__ten{
+        background-image: url("/images/videos/video10.jpg");;
+        background-size: cover;
+        width: auto;
+        height: 202px;
+    }
+    
+    .capa{
+        position: absolute;
+        width: auto;
+        height: 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(11,103,123,0.3);
+        opacity: 1;
+        visibility: hidden;
+    }
+    
+    .capa img {
+        width: 60px;
+        height: 40px;
+    }
+
+    .image__ten:hover > .capa {
+        position: absolute;
+        width: 360px;
+        height: 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(11,103,123,0.3);
+        opacity: 1;
+        visibility: visible;
+        transition: all 500ms;
+    }
+    
+
+    .image__nine{
+        background-image: url("/images/videos/video9.jpg");
+        background-size: cover;
+        width: auto;
+        height: 202px;
+    }
+    
+    .image__nine:hover > .capa {
+        position: absolute;
+        width: 360px;
+        height: 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(11,103,123,0.3);
+        opacity: 1;
+        visibility: visible;
+        transition: all 500ms;
+    }
+    .image__eight{
+        background-image: url("/images/videos/video8.jpg");
+        background-size: cover;
+        width: auto;
+        height: 202px;
+    }
+    
+    .image__eight:hover > .capa {
+        position: absolute;
+        width: 360px;
+        height: 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(11,103,123,0.3);
+        opacity: 1;
+        visibility: visible;
+        transition: all 500ms;
+    }
+
+    .image__seven{
+        background-image: url("/images/videos/video7.jpg");
+        background-size: cover;
+        width: auto;
+        height: 202px;
+    }
+    
+    .image__seven:hover > .capa {
+        position: absolute;
+        width: 360px;
+        height: 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(11,103,123,0.3);
+        opacity: 1;
+        visibility: visible;
+        transition: all 500ms;
+    }
+
+    .image__six{
+        background-image: url("/images/videos/video6.jpg");
+        background-size: cover;
+        width: auto;
+        height: 202px;
+    }
+    
+    .image__six:hover > .capa {
+        position: absolute;
+        width: 360px;
+        height: 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(11,103,123,0.3);
+        opacity: 1;
+        visibility: visible;
+        transition: all 500ms;
+    }
+    
+    .image__five{
+        background-image: url("/images/videos/video5.jpg");
+        background-size: cover;
+        width: auto;
+        height: 202px;
+    }
+    
+    .image__five:hover > .capa {
+        position: absolute;
+        width: 360px;
+        height: 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(11,103,123,0.3);
+        opacity: 1;
+        visibility: visible;
+        transition: all 500ms;
+    }
+    
+    .image__four{
+        background-image: url("/images/videos/video4.jpg");
+        background-size: cover;
+        width: auto;
+        height: 202px;
+    }
+    
+    .image__four:hover > .capa {
+        position: absolute;
+        width: 360px;
+        height: 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(11,103,123,0.3);
+        opacity: 1;
+        visibility: visible;
+        transition: all 500ms;
+    }
+    
+    .image__third{
+        background-image: url("/images/videos/video3.jpg");
+        background-size: cover;
+        width: auto;
+        height: 202px;
+    }
+    
+    .image__third:hover > .capa {
+        position: absolute;
+        width: 360px;
+        height: 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(11,103,123,0.3);
+        opacity: 1;
+        visibility: visible;
+        transition: all 500ms;
+    }
+    
+    .image__two{
+        background-image: url("/images/videos/video2.jpg");
+        background-size: cover;
+        width: auto;
+        height: 202px;
+    }
+    
+    .image__two:hover > .capa {
+        position: absolute;
+        width: 360px;
+        height: 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(11,103,123,0.3);
+        opacity: 1;
+        visibility: visible;
+        transition: all 500ms;
+    }
+
+    .image__one{
+        background-image: url("/images/videos/video1.jpg");
+        background-size: cover;
+        width: auto;
+        height: 202px;
+    }
+
+    .image__one:hover > .capa {
+        position: absolute;
+        width: 360px;
+        height: 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(11,103,123,0.3);
+        opacity: 1;
+        visibility: visible;
+        transition: all 500ms;
+    }
+
+}
